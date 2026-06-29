@@ -1,0 +1,77 @@
+<svg viewBox="0 0 400 1000" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bamboo grove side column">
+  <defs>
+    <!-- a single bamboo segment node accent -->
+    <linearGradient id="bambooFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3FA34D" stop-opacity="0.05"/>
+      <stop offset="0.15" stop-color="#3FA34D" stop-opacity="0.55"/>
+      <stop offset="0.85" stop-color="#3FA34D" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#3FA34D" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Stalk 1 — thick, foreground -->
+  <g opacity="0.7">
+    <rect x="70" y="0" width="26" height="1000" rx="13" fill="#2F5D50" opacity="0.5"/>
+    <rect x="70" y="0" width="26" height="1000" rx="13" fill="none" stroke="#6FA287" stroke-width="1.4"/>
+    <!-- segment nodes -->
+    <g stroke="#6FA287" stroke-width="2">
+      <line x1="66" y1="120" x2="100" y2="120"/>
+      <line x1="66" y1="270" x2="100" y2="270"/>
+      <line x1="66" y1="420" x2="100" y2="420"/>
+      <line x1="66" y1="570" x2="100" y2="570"/>
+      <line x1="66" y1="720" x2="100" y2="720"/>
+      <line x1="66" y1="870" x2="100" y2="870"/>
+    </g>
+    <!-- leaves -->
+    <g fill="none" stroke="#6FA287" stroke-width="1.4" opacity="0.8">
+      <path d="M96,270 q60,-20 110,-58 q-44,52 -110,58 z"/>
+      <path d="M96,570 q66,-6 124,8 q-58,32 -124,-8 z"/>
+    </g>
+  </g>
+
+  <!-- Stalk 2 — medium, mid -->
+  <g opacity="0.55">
+    <rect x="180" y="-20" width="18" height="1040" rx="9" fill="#2F5D50" opacity="0.4"/>
+    <rect x="180" y="-20" width="18" height="1040" rx="9" fill="none" stroke="#3FA34D" stroke-width="1.2"/>
+    <g stroke="#3FA34D" stroke-width="1.6">
+      <line x1="177" y1="80" x2="201" y2="80"/>
+      <line x1="177" y1="230" x2="201" y2="230"/>
+      <line x1="177" y1="380" x2="201" y2="380"/>
+      <line x1="177" y1="530" x2="201" y2="530"/>
+      <line x1="177" y1="680" x2="201" y2="680"/>
+      <line x1="177" y1="830" x2="201" y2="830"/>
+    </g>
+    <g fill="none" stroke="#3FA34D" stroke-width="1.2" opacity="0.75">
+      <path d="M198,380 q56,-30 104,-72 q-36,58 -104,72 z"/>
+      <path d="M198,680 q-50,-26 -96,-64 q34,54 96,64 z"/>
+    </g>
+  </g>
+
+  <!-- Stalk 3 — slim, background -->
+  <g opacity="0.4">
+    <rect x="280" y="0" width="12" height="1000" rx="6" fill="none" stroke="#6FA287" stroke-width="1"/>
+    <g stroke="#6FA287" stroke-width="1.2">
+      <line x1="278" y1="160" x2="294" y2="160"/>
+      <line x1="278" y1="330" x2="294" y2="330"/>
+      <line x1="278" y1="500" x2="294" y2="500"/>
+      <line x1="278" y1="670" x2="294" y2="670"/>
+      <line x1="278" y1="840" x2="294" y2="840"/>
+    </g>
+    <g fill="none" stroke="#6FA287" stroke-width="1" opacity="0.7">
+      <path d="M292,330 q50,-22 92,-56 q-34,48 -92,56 z"/>
+      <path d="M292,670 q48,-4 90,8 q-44,26 -90,-8 z"/>
+    </g>
+  </g>
+
+  <!-- Stalk 4 — far slim accent -->
+  <g opacity="0.3">
+    <rect x="340" y="40" width="9" height="960" rx="4.5" fill="none" stroke="#3FA34D" stroke-width="0.9"/>
+    <g stroke="#3FA34D" stroke-width="1">
+      <line x1="338" y1="240" x2="351" y2="240"/>
+      <line x1="338" y1="450" x2="351" y2="450"/>
+      <line x1="338" y1="660" x2="351" y2="660"/>
+      <line x1="338" y1="870" x2="351" y2="870"/>
+    </g>
+    <path d="M349,450 q38,-16 70,-44 q-26,38 -70,44 z" fill="none" stroke="#3FA34D" stroke-width="0.9" opacity="0.7"/>
+  </g>
+</svg>

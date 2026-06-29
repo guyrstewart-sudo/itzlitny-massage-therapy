@@ -1,0 +1,8 @@
+# temp / host-locked artifacts
+_tail.html
+brand/_preview/
+# os junk
+.DS_Store
+Thumbs.db
+desktop.ini
+node_modules/

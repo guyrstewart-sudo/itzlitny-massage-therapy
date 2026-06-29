@@ -1,0 +1,17 @@
+<svg viewBox="0 0 240 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Line-art lotus flower">
+  <g fill="none" stroke="#C9A24B" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round">
+    <!-- back petals -->
+    <path d="M120,170 C70,150 40,110 44,66 C78,84 104,120 120,170 Z" stroke="#5FA8A0" opacity="0.6"/>
+    <path d="M120,170 C170,150 200,110 196,66 C162,84 136,120 120,170 Z" stroke="#5FA8A0" opacity="0.6"/>
+    <!-- mid petals -->
+    <path d="M120,172 C86,150 66,108 78,68 C104,92 116,130 120,172 Z" opacity="0.85"/>
+    <path d="M120,172 C154,150 174,108 162,68 C136,92 124,130 120,172 Z" opacity="0.85"/>
+    <!-- side outer petals (low, splayed) -->
+    <path d="M120,174 C72,168 36,150 20,118 C56,116 96,138 120,174 Z" opacity="0.7"/>
+    <path d="M120,174 C168,168 204,150 220,118 C184,116 144,138 120,174 Z" opacity="0.7"/>
+    <!-- center petal -->
+    <path d="M120,176 C104,150 102,100 120,58 C138,100 136,150 120,176 Z" opacity="1"/>
+    <!-- water line -->
+    <path d="M30,182 Q120,196 210,182" stroke="#5FA8A0" stroke-width="1.2" opacity="0.5"/>
+  </g>
+</svg>

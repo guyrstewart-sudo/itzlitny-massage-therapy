@@ -1,0 +1,9 @@
+{
+  "name": "itz-litny-massage-therapy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Website + Stripe checkout serverless function for itz_litny massage therapy",
+  "dependencies": {
+    "stripe": "^16.0.0"
+  }
+}

@@ -1,0 +1,38 @@
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Soft ink wash atmospheric texture">
+  <defs>
+    <filter id="inkBlur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="26"/>
+    </filter>
+    <filter id="inkBlurSoft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="44"/>
+    </filter>
+    <radialGradient id="inkJade" cx="40%" cy="40%" r="65%">
+      <stop offset="0" stop-color="#2F5D50" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#2F5D50" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="inkCharcoal" cx="55%" cy="50%" r="60%">
+      <stop offset="0" stop-color="#16201C" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#16201C" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- blob 1 — large jade, upper-left -->
+  <g filter="url(#inkBlurSoft)" opacity="0.5">
+    <path fill="url(#inkJade)" d="M250,170 C360,120 470,160 500,260 C530,360 470,470 360,490 C240,512 140,440 130,330 C122,238 160,210 250,170 Z"/>
+  </g>
+
+  <!-- blob 2 — charcoal, lower-right -->
+  <g filter="url(#inkBlur)" opacity="0.55">
+    <path fill="url(#inkCharcoal)" d="M540,430 C640,400 720,460 720,560 C720,660 640,720 540,710 C440,700 380,620 400,520 C414,452 460,454 540,430 Z"/>
+  </g>
+
+  <!-- blob 3 — small jade accent, center drifting -->
+  <g filter="url(#inkBlur)" opacity="0.4">
+    <path fill="url(#inkJade)" d="M380,540 C440,520 500,540 510,600 C520,660 470,700 410,694 C354,688 320,640 332,584 C340,548 348,550 380,540 Z"/>
+  </g>
+
+  <!-- blob 4 — faint charcoal upper-right -->
+  <g filter="url(#inkBlurSoft)" opacity="0.35">
+    <path fill="url(#inkCharcoal)" d="M560,140 C640,120 700,160 700,230 C700,300 640,340 570,330 C500,320 470,260 488,200 C500,162 512,152 560,140 Z"/>
+  </g>
+</svg>
