@@ -348,3 +348,43 @@ code{background:rgba(236,230,216,.08);padding:.1em .4em;border-radius:5px;font-s
   .chakra__node{width:56px;height:56px}
   .cursor-glow{display:none}
 }
+
+/* ============ CENTER-ALL-TEXT PASS ============ */
+.hero__inner{text-align:center;margin-inline:auto}
+.hero__sub{margin-left:auto;margin-right:auto}
+.hero__actions{justify-content:center}
+
+.about__body{text-align:center}
+.about__values{justify-items:center}
+.about__values li{padding-left:0;text-align:center}
+.about__values li::before{display:none}
+
+.chakra__text{text-align:center}
+
+.card{text-align:center;align-items:center}
+.card__icon{margin-inline:auto}
+.card__top{justify-content:center}
+.card__price{justify-content:center}
+.card__book{align-self:center}
+
+.ritual__body{text-align:center}
+.steps li{flex-direction:column;align-items:center;text-align:center}
+.steps::before{display:none}
+.steps__n{background:transparent}
+
+.book__intro{text-align:center}
+.book__assure{justify-items:center;text-align:center}
+.book__summary,#summaryBody{text-align:center}
+.book__form{text-align:center}
+.book__form label{display:block;text-align:center}
+.book__form input,.book__form select,.book__form textarea{text-align:center}
+.check{justify-content:center}
+
+.tcard{text-align:center}
+
+.contact__grid{text-align:center}
+.contact__line{text-align:center}
+
+.footer__inner{justify-items:center;text-align:center}
+.footer__nav{justify-content:center}
+.footer__legal{text-align:center}
