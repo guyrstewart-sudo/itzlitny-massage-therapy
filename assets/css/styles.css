@@ -88,8 +88,8 @@ code{background:rgba(236,230,216,.08);padding:.1em .4em;border-radius:5px;font-s
 .brand{display:flex;align-items:center;gap:.65rem;color:var(--gold)}
 .brand__mark{display:grid;place-items:center;filter:drop-shadow(0 0 8px rgba(201,162,75,.4))}
 .brand__mark svg{width:52px;height:52px}
-.brand__type{font-family:var(--ff-display);font-size:2.7rem;font-weight:600;line-height:.95;display:flex;flex-direction:column;color:var(--ink);white-space:nowrap}
-.brand__type small{font-family:var(--ff-accent);font-size:.82rem;letter-spacing:.34em;text-transform:uppercase;color:var(--gold);margin-top:4px}
+.brand__type{font-family:var(--ff-display);font-size:2.7rem;font-weight:600;line-height:1.12;display:flex;flex-direction:column;color:var(--ink);white-space:nowrap}
+.brand__type small{font-family:var(--ff-accent);font-size:.82rem;letter-spacing:.34em;text-transform:uppercase;color:var(--gold);margin-top:7px}
 .nav__links{display:flex;align-items:center;gap:1.6rem}
 .nav__links a{font-family:var(--ff-accent);font-size:1.12rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft);position:relative;transition:color .3s;white-space:nowrap}
 .nav__links a:not(.nav__cta):hover{color:var(--gold-2)}
@@ -312,8 +312,8 @@ code{background:rgba(236,230,216,.08);padding:.1em .4em;border-radius:5px;font-s
 .footer__bamboo{position:absolute;right:0;top:-40px;height:160%;opacity:.10;pointer-events:none}
 .footer__inner{display:grid;grid-template-columns:1.2fr 1fr 1.4fr;gap:2rem;align-items:center}
 .footer__brand .brand__mark{color:var(--gold)}
-.footer__type{font-family:var(--ff-display);font-size:1.6rem;display:flex;flex-direction:column;line-height:.95;margin:.3rem 0 0;color:var(--ink)}
-.footer__type small{font-family:var(--ff-accent);font-size:.5rem;letter-spacing:.4em;text-transform:uppercase;color:var(--gold)}
+.footer__type{font-family:var(--ff-display);font-size:1.6rem;display:flex;flex-direction:column;line-height:1.15;margin:.3rem 0 0;color:var(--ink)}
+.footer__type small{font-family:var(--ff-accent);font-size:.5rem;letter-spacing:.4em;text-transform:uppercase;color:var(--gold);margin-top:5px}
 .footer__tag{font-family:var(--ff-display);font-style:italic;color:var(--ink-soft);margin:.5rem 0 0}
 .footer__nav{display:flex;gap:1.5rem;justify-content:center;flex-wrap:wrap}
 .footer__nav a{font-family:var(--ff-accent);font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft)}
