@@ -65,7 +65,7 @@ code{background:rgba(236,230,216,.08);padding:.1em .4em;border-radius:5px;font-s
 
 /* ---------- buttons ---------- */
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;
-  font-family:var(--ff-body);font-weight:700;font-size:.82rem;letter-spacing:.14em;text-transform:uppercase;
+  font-family:var(--ff-body);font-weight:700;font-size:.82rem;letter-spacing:.14em;text-transform:uppercase;white-space:nowrap;
   padding:.95rem 1.8rem;border-radius:999px;border:1px solid transparent;cursor:pointer;position:relative;
   transition:transform .3s,box-shadow .3s,background .3s,color .3s;overflow:hidden}
 .btn:hover{transform:translateY(-3px)}
@@ -88,10 +88,10 @@ code{background:rgba(236,230,216,.08);padding:.1em .4em;border-radius:5px;font-s
 .brand{display:flex;align-items:center;gap:.65rem;color:var(--gold)}
 .brand__mark{display:grid;place-items:center;filter:drop-shadow(0 0 8px rgba(201,162,75,.4))}
 .brand__mark svg{width:52px;height:52px}
-.brand__type{font-family:var(--ff-display);font-size:3rem;font-weight:600;line-height:.92;display:flex;flex-direction:column;color:var(--ink)}
+.brand__type{font-family:var(--ff-display);font-size:2.7rem;font-weight:600;line-height:.95;display:flex;flex-direction:column;color:var(--ink);white-space:nowrap}
 .brand__type small{font-family:var(--ff-accent);font-size:.82rem;letter-spacing:.34em;text-transform:uppercase;color:var(--gold);margin-top:4px}
 .nav__links{display:flex;align-items:center;gap:1.6rem}
-.nav__links a{font-family:var(--ff-accent);font-size:1.12rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft);position:relative;transition:color .3s}
+.nav__links a{font-family:var(--ff-accent);font-size:1.12rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft);position:relative;transition:color .3s;white-space:nowrap}
 .nav__links a:not(.nav__cta):hover{color:var(--gold-2)}
 .nav__links a:not(.nav__cta)::after{content:"";position:absolute;left:0;bottom:-6px;width:0;height:1px;background:var(--gold);transition:width .3s}
 .nav__links a:not(.nav__cta):hover::after{width:100%}
@@ -101,7 +101,7 @@ code{background:rgba(236,230,216,.08);padding:.1em .4em;border-radius:5px;font-s
 /* mobile menu must stay hidden unless toggled (fixes vertical menu on desktop) */
 .nav__mobile[hidden]{display:none!important}
 /* collapse to hamburger a touch earlier now that header type is larger */
-@media(max-width:1180px){.nav__links{display:none}.nav__toggle{display:flex}}
+@media(max-width:1320px){.nav__links{display:none}.nav__toggle{display:flex}}
 .nav__toggle{display:none;flex-direction:column;gap:5px;background:none;border:0;cursor:pointer;padding:8px}
 .nav__toggle span{width:24px;height:2px;background:var(--gold);border-radius:2px;transition:.3s}
 .nav__toggle[aria-expanded="true"] span:nth-child(1){transform:translateY(7px) rotate(45deg)}
