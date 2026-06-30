@@ -1,5 +1,5 @@
 /* api/create-checkout-session.js
- * Serverless Stripe Checkout for itz_litny massage therapy.
+ * Serverless Stripe Checkout for Beconing Arts Massage Therapy.
  * Works as a Vercel Serverless Function out of the box.
  * (Cloudflare Workers / Netlify notes in README-DEPLOY.md.)
  *
@@ -51,7 +51,7 @@ module.exports = async function handler(req, res) {
         unit_amount: base,
         product_data: {
           name: `${svc} — ${minutes} min`,
-          description: "itz_litny massage therapy session"
+          description: "Beconing Arts Massage Therapy session"
         }
       }
     }];

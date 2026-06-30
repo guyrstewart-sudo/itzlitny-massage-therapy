@@ -13,7 +13,7 @@
     <path d="M0 -72C-42 -8 -62 32 -62 62a62 62 0 0 0 124 0C62 32 42 -8 0 -72Z"/>
     <path d="M0 -28c-20 30 -30 55 -30 80"/>
   </g>
-  <text x="600" y="420" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif" font-size="92" font-weight="600" fill="#ECE6D8">itz_litny</text>
-  <text x="600" y="468" text-anchor="middle" font-family="Marcellus, serif" font-size="24" letter-spacing="12" fill="#C9A24B">MASSAGE THERAPY</text>
+  <text x="600" y="418" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif" font-size="80" font-weight="600" fill="#ECE6D8">Beconing Arts</text>
+  <text x="600" y="464" text-anchor="middle" font-family="Marcellus, serif" font-size="23" letter-spacing="11" fill="#C9A24B">MASSAGE THERAPY</text>
   <text x="600" y="548" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif" font-style="italic" font-size="38" fill="#E4C982">an artist's eye, healing hands</text>
 </svg>

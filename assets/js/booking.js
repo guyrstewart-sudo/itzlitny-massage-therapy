@@ -12,9 +12,9 @@
   "use strict";
 
   var CONFIG = {
-    // e.g. "https://itzlitny.vercel.app/api/create-checkout-session"
+    // e.g. "https://beconing-arts.vercel.app/api/create-checkout-session"
     checkoutEndpoint: "",          // ← paste your deployed function URL to go live
-    fallbackEmail: "hello@itzlitny.com",
+    fallbackEmail: "hello@beconingarts.com",
     currency: "usd",
     firstVisitDiscount: 20,
     aromaPrice: 15
